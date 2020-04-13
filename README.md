@@ -34,9 +34,9 @@ mix run --no-halt
 Visit [`localhost:4000`](http://localhost:4000) 
 
 ## ToDo
-
-[] Rewrite frontend part
-[] Add more tests
-[] Add registration and authorization
+- [ ] Add error handler
+- [ ] Add docstring
+- [ ] Rewrite frontend part
+- [ ] Add more tests
+- [ ] Add registration and authorization
  
-
