@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="application/javascript" defer="defer" src="js/application.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/application.css">
+    <title>
+      WebSocket Roll Dice Chat App
+    </title>
+  </head>
+  <body>
+
+    <div class="root">
+
+      <div class="container">
+        <span>Name:</span>
+        <input type="text" id="name">
+      </div>
+
+      <form>
+        <div class="flex-container">
+            <span>Message:</span>
+            <textarea id="message" type="text"></textarea>
+          <input type="submit" value="Go" id="button_chat">
+        </div>
+      </form>
+
+      <form id="roll" class="flex-container">
+            <div class="roll">
+              <div>
+                <span>Dice num:</span><input class="number" type="number" id="num_dice">
+              </div>
+              <div>
+                <span>Dice type:</span><input class="number" type="number" id="num_sides">
+              </div>
+            </div>
+          <input type="submit" value="Roll" id="button_roll">
+      </form>
+    </div>
+    <hr class="split">
+    <main id="main"></main>
+
+  </body>
+</html>

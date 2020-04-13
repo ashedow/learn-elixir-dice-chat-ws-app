@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+}
+
+hr .split {
+    display: inline;
+    margin-inline-start: inherit;
+}
+
+#span {
+    width: 10em;
+}
+
+.number {
+    width: 3em;
+}
+
+#main {
+    width: 80%;
+}
+
+#main.disconnected {
+    background-color: gray;
+}
+
+.chatEntry {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.chatEntry .name {
+    color: darkslategray;
+    text-align: end;
+    width: 8em;
+    min-width: 8em;
+    margin: 4px;
+    margin-right: 6px;
+}
+
+.chatEntry .messagePart .request {
+    color: gray;
+    font-size: small;
+    margin: 0px;
+}
+
+.chatEntry .messagePart .message {
+    color: black;
+    margin: 0px;
+}
