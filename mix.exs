@@ -6,6 +6,7 @@ defmodule DiceRollerChatApp.MixProject do
       app: :dice_roller_chat_app,
       version: "0.1.0",
       elixir: "~> 1.10",
+      build_embedded: Mix.env == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -27,7 +28,6 @@ defmodule DiceRollerChatApp.MixProject do
       {:cowboy, "~> 2.4"},
       {:plug, "~> 1.7"},
       {:plug_cowboy, "~> 2.0"},
-      # {:jason, "~> 1.1"}
       {:poison, "~> 3.1"}
     ]
   end
